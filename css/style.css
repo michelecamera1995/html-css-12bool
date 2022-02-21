@@ -27,6 +27,18 @@
     width: 100%;
 }
 
+.bigblue {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    border: 0.5px solid white;
+    width: 100%;
+}
+
 .bg-blue {
     background-color: blue;
 }
@@ -37,4 +49,36 @@
 
 .margtop {
     margin-top: 5%;
+}
+
+.pos1 {
+    justify-content: flex-start;
+}
+
+.pos2 {
+    justify-content: center;
+}
+
+.pos3 {
+    justify-content: flex-end;
+}
+
+.alt1 {
+    align-self: flex-start;
+}
+
+.alt2 {
+    align-self: center;
+}
+
+.alt3 {
+    align-self: flex-end;
+}
+
+.spaceb {
+    justify-content: space-between;
+}
+
+.spacea {
+    justify-content: space-around;
 }
