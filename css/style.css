@@ -10,11 +10,31 @@
     align-items: center;
     background-color: blue;
     text-align: center;
+    justify-content: center;
     color: white;
     border: 0.5px solid white;
+    width: 100%;
+}
+
+.textgreen {
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    background-color: lime;
+    text-align: center;
+    color: white;
+    border: 0.5px solid white;
+    width: 100%;
 }
 
 .bg-blue {
     background-color: blue;
-    width: 100%;
+}
+
+.pad {
+    padding: 1%;
+}
+
+.margtop {
+    margin-top: 5%;
 }
